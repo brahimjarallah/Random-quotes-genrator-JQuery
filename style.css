@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+.container {
+  display: block;
+  position: absolute;
+  /* flex-direction: center; */
+  /* align-items: center; */
+  font-size: 1.3rem;
+  background-color: #fff;
+  margin: auto;
+  padding: 70px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  /* border: 1px solid blue; */
+  width: 400px;
+  height: 300px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #9fb6e9; */
+font-family: 'Odibee Sans', cursive;
+}
+#double-quotes {
+  width: 20px;
+}
+/* span{
+    font-size: 20px;
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+} */
+.quote-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    /* text-align: left; */
+
+}
+
+
+/*  */
+.share-twitter , .share-facebook, #new-quote{
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  /* background-color: #9fb6e9; */
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid rgb(245, 234, 234);
+  /* color: #fff; */
+  /* box-shadow: rgb(141, 84, 84); */
+}
+.share-twitter  {
+    margin: 10px 20px;
+    left: 0;
+}
+.share-facebook{
+    margin: 10px 40px;
+}
+#new-quote{
+    margin: 10px 20px;
+    right: 0;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 5px;
+}
